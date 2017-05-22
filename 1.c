@@ -16,9 +16,9 @@ void main()
   {
     printf("can not" );
     exit(0);
-  }add
+  }
   n=0;
-  while () {
-
+  while (/* condition */) {
+    /* code */
   }
 }

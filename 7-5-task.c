@@ -6,5 +6,19 @@ void main()
     for(j=0;j<5;j++)
       scanf("%d",&a[i][j] );
   printf("\n" );
-  for 
+  for(i=0;i<5,i++)
+  {
+    sum += a[i][i];
+    if(i != 2)
+      sum += [i][4-i];
+    if(i % 2 !=0)
+      continue;
+    mul *= a[i][i];
+    if(i !=2)
+      mul *= a[i][4-i];
+  }
+  printf("sum=%d  mul=%d \n",sum,mul );
 }
+
+循环右移
+套路for循环

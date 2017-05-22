@@ -1,3 +1,7 @@
+升序排列：冒泡、选择
+
+前一半放奇数，后一半放偶数
+
 #include <stdio.h>
 void main()
 {
@@ -7,11 +11,13 @@ void main()
   for(i=0;i<10;i++)
   {
     scanf("%d",&n);
+
     if (n%2!=0)
       a[odd++]=n;
     else
       a[even--]=n;
     }
+
 
     for (i=0;i<odd-1;i++)
     {
@@ -27,6 +33,8 @@ void main()
 
       }
     }
+
+
     for (i=odd;i<9;i++)
     {
       n=i;
